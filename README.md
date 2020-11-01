@@ -15,6 +15,7 @@ This is the back-end of an e-commerce site written in Javascript and utilizes Ex
 * Database models for Category, Product, Tags, and ProductTags
 * Model associations
 * GET, POST, PUT, DELETE api routes  
+
 No front end exists for the application so the application must be run from the command line and tested with user input through Insomnia Core.  The intent of this application was to demonstrate the use of Sequelize in the application of create, read, update, and delete (CRUD) operations on a database.  
 
 ## Installation <a name="installation"></a>
@@ -68,18 +69,18 @@ The application will start and indicate the server is running, as shown below:
 
 4. Once the server is running, open Insomnia Core to test out the following API routes:
 
-```http://localhost:3001/api/categories```
-```http://localhost:3001/api/products```
+```http://localhost:3001/api/categories```  
+```http://localhost:3001/api/products```  
 ```http://localhost:3001/api/tags```
 
 Single item functions will be accessed through the following routes:
-```http://localhost:3001/api/categories/:id```
-```http://localhost:3001/api/products/:id```
+```http://localhost:3001/api/categories/:id```  
+```http://localhost:3001/api/products/:id```  
 ```http://localhost:3001/api/tags/:id```
 
 For a walk-through of this application, please view the following video:
 
-``placeholder for video link``
+https://drive.google.com/file/d/1c1N5gMVK5aq5QcwczZzw2uZh98-Xy9iM/view?usp=sharing
 
 ## Contributing <a name="contributing"></a>
 Contributions are welcome.  Please contact me regarding improvements you would like to make.
